@@ -12,7 +12,20 @@
 </head>
 
 <body>
-  <h1>Multi-stage Form</h1>
+  <div id="container">
+    <h1 class="logo">Multi-stage Form</h1>
+    <div id="formBox">
+      <i id="prevBtn" class="fas fa-arrow-left"></i>
+      <i id="nextBtn" class="fas fa-arrow-right"></i>
+      <div id="inputGroup">
+        <input id="inputField" required>
+        <label id="inputLabel">Enter your first name</label>
+        <div id="inputProgress"></div>
+      </div>
+      <div id="progressBar"></div>
+    </div>
+  </div>
+
   <script src="js/main.js"></script>
 </body>
 
