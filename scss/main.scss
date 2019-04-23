@@ -17,6 +17,13 @@ body {
   font-size: 4rem;
 }
 
+.end {
+  position: relative;
+  color: #fff;
+  opacity: 0;
+  transition: 0.8s ease-in-out;
+}
+
 .container {
   height: 100vh;
   display: flex;
@@ -125,6 +132,13 @@ body {
   height: $progress-height;
   width: 0;
   transition: width 0.5s ease-in-out;
+}
+
+.close {
+  .next-btn,
+  .prev-btn {
+    color: #fff;
+  }
 }
 
 .error {
